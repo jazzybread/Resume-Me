@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--Icons-->
+    <script src="https://kit.fontawesome.com/d4ae2af042.js" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<!--Introduction-->
+    <div class="Introduction">
+        <h1 id="call">Resume Me</h1>
+        <h2>Give us a few details and we'll handle the rest.</h2>
+        <hr>
+    </div>
+    <section class="Form">
+        <div class="Work-experience">
+            <form name="resume-input" class="container-fluid">
+                <div class="row top">
+    <!---Contact Information--> 
+                <div class="card col-3" style="width: 18rem;">
+                  <i class="fa fa-address-card" aria-hidden="true"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Contact Information</h5>
+                    <p class="card-text">Where Can They Contact You?</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" value="">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="address">Address</label>
+                        <input class="address" type="text" id="address" name="address">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="city-town">City/Town</label>
+                        <input type="text" id="city-town" name="city-town">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="state-prefecture">State/Prefecture</label>
+                        <input type="text" id="state-prefecture" name="state-prefecture">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="zipcode">Zip Code</label>
+                        <input type="text" id="zipcode" name="zipcode">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="telephone">Telephone</label>
+                        <input type="text" id="telephone" name="telephone">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </li>
+                </div>
+         <!--Work Experience-->
+                <div class="card col-3" style="width: 18rem;">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Work Experience</h5>
+                      <p class="card-text">What's Your Hustle?</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <label for="start-date">Start Date</label><br>
+                          <input type="text" name="start-date" id="start-date" value="">
+                      </li>
+                      <li class="list-group-item">
+                          <label for="end-date">End Date</label><br>
+                          <input type="text" id="end-date" name="end-date"><br>
+                      </li>
+                      <li class="list-group-item">
+                          <label for="title">Title</label><br>
+                          <input class="title" type="text" id="title" name="title"><br>
+                      </li>
+                      <li class="list-group-item">
+                          <label for="company-name">Company Name</label><br>
+                          <input type="text" id="company-name" name="company-name"><br>
+                      </li>
+                      <li class="list-group-item">
+                          <label for="task">Tasks</label><br>
+                          <input for="task" id="task1" name="task1"><br>
+                          <input for="task" id="task2" name="task2"><br>
+                          <input for="task" id="task3" name="task3"><br>
+                      </li>
+                  </div>
+        <!--Education-->
+                <div class="card col-3" style="width: 18rem;">
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Education</h5>
+                    <p class="card-text">Receipts Or It Didn't Happen</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <label for="university">University</label>
+                        <input type="text" name="university" id="university" value="">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="degree">Degree</label>
+                        <input type="text" id="degree" name="degree">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="graduation-date">Graduation Date</label>
+                        <input class="graduation-date" type="text" id="graduation-date" name="graduation-date">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="honors">Honors</label>
+                        <input type="text" id="honors" name="honors">
+                    </li>
+                </div>
+        
+    <!--Skills and Certificates-->
+                <div class="card col-3" style="width: 18rem;">
+                  <i class="fa fa-language" aria-hidden="true"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Skills and Certificates</h5>
+                    <p class="card-text">Any Special Skills?</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <label for="languages">Languages</label>
+                        <input type="text" name="languages" id="languages" value="">
+                    </li>
+                    <li class="list-group-item">
+                        <label for="certificates">Certificates</label>
+                        <input type="text" id="certificates" name="certificates">
+                    </li>
+                </div>
+                
+                </div>
+                </form>
+    <!-- Submit Button-->
+            <input type="button" class="btn btn-secondary btn-lg submit-button" id="submit" onclick="myFunction()" value="Generate Resume">
+        </div>
+    </section>
+    <!--Generated Resume -->
+    <section class="resume">
+        <div class="resume-paper">
+            <div class="container-fluid">
+    <!--Resume Contact Info-->
+                <div class="resume-contact">
+                    <div class="row">
+                        <div class="col-sm-12" id="first-and-last-name">Name</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12" id="address-city-state-country-zipcode">Address</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12" id="telephone-and-email">TEL and Email</div>
+                    </div>
+                </div>
+    <!--Resume Work Info-->
+                <div class="resume-work"> 
+                    <h2 class="generate">Work Experience</h2>
+                    <div class="row">
+                        <div class="col-sm-12 date" id="start-and-end-dates">Term</div>
+                    </div>
+                    <div class="row title-company">
+                        <div class="col-sm-6" id="re-title">Title</div>
+                        <div class="col-sm-6" id="re-company-name">Company</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="re-task1">Task 1</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="re-task2">Task 2</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="re-task3">Task 3</div>
+                    </div>
+                </div>
+    <!-- Resume Education Info-->
+                <div class="resume-education">
+                    <h2 class="generate">Education</h2>
+                    <div class="row">
+                        <div class="col-sm-12 date" id="re-graduation-date">Graduated</div>
+                    </div>
+                    <div class="row degree-university">
+                        <div class="col-sm-6" id="re-degree">Degree</div>
+                        <div class="col-sm-6" id="re-university">University</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12" id="re-honors">Honors</div>
+                    </div>
+                </div>
+    <!-- Resume Skills Section-->
+                <div class="resume-skills">
+                    <h2 class="generate" > Skills & Certificates</h2>
+                    <div class="row">
+                        <div class="col-sm-12" id="re-languages">Languages</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-12" id="re-certificates">Certificates</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container">
+            <a href=""><i class="sns fa fa-twitter" aria-hidden="true"></i></a>
+            <a href=""><i class="sns fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="sns fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="sns fa fa-envelope" aria-hidden="true"></i></a>
+            <p>© Copyright 2020 Resume Me</p>
+            </div>
+        </footer>
+</body>
+</html>

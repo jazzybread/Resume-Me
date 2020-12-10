@@ -1,0 +1,163 @@
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #373a40;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: #686d76;
+}
+h1, h2 {
+    text-align: center;
+    
+}
+.re-company-name {
+    display:inline-block;
+    font-size: 20px;
+}
+.re-title {
+    display:inline-block;
+    font-family : Arial, Helvetica, sans-serif; 
+}
+.card{
+    display:inline-block;
+
+}
+.Form{
+    text-align:center;
+}
+.fa {
+    font-size: 80px;
+    padding: 50px;
+}
+.row {
+    display:block;
+}
+.resume {
+    padding: 3% 15% 7%;
+    background-color:#ffe2e2;
+    padding: 3%;
+    margin: 5%;
+}
+.resume-paper {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 7%;
+}
+.resume-contact {
+    text-align: center;
+}
+
+body {
+    background-color:white;
+    text-align: center;
+}
+.degree-university {
+    display: inline;
+}
+/* Form Color*/
+.list-group-item {
+    background-color:#ffe2e2;
+    border: none;
+}
+.container-fluid {
+    background-color:white;
+
+}
+.fa {
+    color:#ffc7c7;
+}
+input {
+    border: none;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #373a40;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    color: #686d76;
+    font-size: 16px;
+}
+form {
+    padding: 5% 5% 3%;
+}
+.card {
+    margin: 1%;
+}
+.Introduction {
+    padding: 10% 5% 7%;
+    background-color: #ffc7c7;
+}
+.footer {
+    background-color: #ffc7c7;
+    padding: 3% 5% 3%;
+}
+.sns {
+    font-size: 30px;
+    color: white;
+}
+hr {
+    width: 30%;
+    border-style:dotted none none none;
+    border-color:#ffe2e2;
+    border-width: 5px;
+    padding: 0 0 12%;
+
+}
+.submit-button {
+    background-color: #686d76;
+    color: white;
+    padding: 0 20% 0;
+    display: inline;
+    height: 50px;
+    margin: 0 0 5%;
+
+
+}
+/*Formatted Resume*/
+#first-and-last-name {
+  font-weight:900;
+  font-size: 80px;
+  margin: 0;
+}
+#address-city-state-country-zipcode {
+    margin:0;
+}
+#telephone-and-email {
+    margin:0;
+}
+.date {
+    font-size: 15px;
+}
+#re-title , #re-company-name , #re-degree, #re-university  {
+    font-size: 20px;
+}
+#re-title , #re-degree {
+    font-weight:900;
+}
+#re-degree , #re-title {
+    padding: 0;
+    text-align: right;
+}
+#re-university , #re-company-name {
+    text-align: left;
+}
+
+.generate {
+    text-align: center;
+    font-size: 35px;
+}
+.re-graduation-date {
+    margin:0;
+}
+.degree-university {
+    margin:0;
+}
+.re-honors {
+    margin:0;
+}
